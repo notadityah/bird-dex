@@ -25,7 +25,7 @@ export default function Hero() {
              <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gray-100 aspect-[4/3] w-full group">
                 {/* Hero Image */}
                 <Image 
-                  src="/images/hero.png" 
+                  src="/images/kingfisher_2.jpg" 
                   alt="Common Kingfisher" 
                   fill 
                   className="object-cover"
