@@ -36,15 +36,6 @@ export default function Header() {
               Get Started
             </Link>
           </div>
-          
-          {/* Mobile menu button placeholder (optional for this scope but good practice) */}
-          <div className="md:hidden flex items-center">
-            <button className="text-gray-600 hover:text-foreground focus:outline-none">
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
-            </button>
-          </div>
         </div>
       </div>
     </header>
