@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #ffffff;
+  --color-foreground: #171717;
+  --color-primary-green: #00D084;
+  --color-forest-green: #1A3C34;
+  --color-light-gray: #f3f4f6;
+  --font-sans: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary-green: #00D084;
+  --forest-green: #1A3C34;
+  --light-gray: #f3f4f6;
+}
+
+body {
+  background-color: var(--background);
+  background-image: url('/images/birdbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
