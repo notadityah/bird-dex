@@ -13,7 +13,8 @@ export default function Community() {
   ];
 
   return (
-    <section id="community" className="py-24 bg-gray-100 relative overflow-hidden">
+    <section id="community" className="py-24 relative overflow-hidden bg-white/90 backdrop-blur-none">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Community Gallery</h2>
@@ -28,7 +29,7 @@ export default function Community() {
                 src={photos[0].src} 
                 alt={photos[0].name} 
                 fill 
-                className="object-cover transition-transform duration-700 group-hover:scale-110"
+                className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
               <div className="absolute bottom-4 left-4 text-white font-bold text-xl drop-shadow-md translate-y-2 group-hover:translate-y-0 transition-transform duration-300">{photos[0].name}</div>
@@ -41,7 +42,7 @@ export default function Community() {
                   src={photo.src} 
                   alt={photo.name} 
                   fill 
-                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
                 <div className="absolute bottom-4 left-4 text-white font-bold text-lg drop-shadow-md translate-y-2 group-hover:translate-y-0 transition-transform duration-300">{photo.name}</div>
@@ -50,9 +51,8 @@ export default function Community() {
         </div>
 
         <div className="text-center mt-12">
-            <a href="#" className="inline-flex items-center text-primary-green font-semibold hover:text-opacity-80 transition-colors gap-2">
-                View Gallery
-                <Image src="/right-arrow-svgrepo-com.svg" alt="Menu" width={20} height={20} />
+            <a href="#" className="inline-flex items-center justify-center border-2 border-gray-600 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg hover:border-gray-400 transition-all gap-2">
+                View Gallery <Image src="/right-arrow-svgrepo-com.svg" alt="Menu" width={20} height={20} />
             </a>
         </div>
       </div>
