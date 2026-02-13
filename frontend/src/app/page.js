@@ -1,9 +1,9 @@
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import HowItWorks from "../components/HowItWorks";
-import Community from "../components/Community";
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
+import Header from "../components/landingpage/Header";
+import Hero from "../components/landingpage/Hero";
+import HowItWorks from "../components/landingpage/HowItWorks";
+import Community from "../components/landingpage/Community";
+import CallToAction from "../components/landingpage/CallToAction";
+import Footer from "../components/landingpage/Footer";
 
 
 export default function Home() {
