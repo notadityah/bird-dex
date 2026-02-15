@@ -22,25 +22,6 @@ useLoadAnimation(heroRight, { x: 60, y: 0, duration: 1 })
           >
             Keep track of the birds you spot with <span class="text-forest-green">BirdDex</span>
           </h1>
-          <p class="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
-            Snap a photo, instantly identify the bird, and build your personal collection. BirdDex
-            makes birdwatching smarter and more fun.
-          </p>
-
-          <div class="flex flex-col sm:flex-row gap-4 mb-10">
-            <a
-              href="#signup"
-              class="inline-flex items-center justify-center bg-forest-green text-white px-10 py-4 rounded-lg font-semibold text-lg hover:shadow-lg hover:shadow-forest-green/25 transition-all"
-            >
-              Get Started
-            </a>
-            <a
-              href="#how-it-works"
-              class="inline-flex items-center justify-center border-2 border-gray-600 text-gray-900 px-10 py-4 rounded-lg font-semibold text-lg hover:border-gray-400 transition-all"
-            >
-              How It Works
-            </a>
-          </div>
         </div>
 
         <!-- Right Column -->
